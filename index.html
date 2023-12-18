@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+    <!-- Подключаем UIKit по ссылке с api.oneteacher.space -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="uk-navbar-container">
+        <div class="uk-container uk-container-large">
+            <nav class="uk-navbar">
+
+                <div class="uk-navbar-left">
+                    <div class="uk-navbar-item uk-logo uk-text-bold uk-text-danger">
+                    </div>
+                </div>
+                <div class="uk-navbar-center">
+                    <a href="index.html" class="uk-margin-center a"> ГЛАВНАЯ</a>
+                    <a href="pokedex.html" class=" uk-margin-center a"> СЛОВАРЬ</a>
+                    <a href="media.html" class=" uk-margin-center a"> МЕДИА</a>
+                </div>
+                <div class="uk-navbar-right">
+
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="mainSection">
+
+            <div class="uk-width-1-5">
+                <h4>Времена</h4>
+                <p class="tenses">Present</p>
+                <div class="uk-inline">
+                    <button class="uk-button " type="button">Simple</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Действие совершается постоянно<br>Как формируется: V / Vs<br>Вспомогательный глагол: do / does</div>
+                </div>
+                <div class="uk-inline">
+                    <button class="uk-button " type="button">Continuous</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Действие совершается сейчас<br>Как формируется: am/is/are + Ving</div>
+                </div>
+                <div class="uk-inline">
+                    <button class="uk-button " type="button">Perfect</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Действие совершилось и имеет связь с настоящим<br>Как формируется: have/has + Ved/V3</div>
+                </div>
+                <div class="uk-inline">
+                    <button class="uk-button border" type="button">Perfect Continuous</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Начатое действие продолжается<br>Как формируется: have/has + been + Ving</div>
+                </div>
+                <p class="tenses">Past</p>
+                <div class="uk-inline">
+                    <button class="uk-button " type="button">Simple</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Действие совершилось<br>Как формируется: Ved/V2<br>Вспомогательный глагол: did</div>
+                </div>
+                <div class="uk-inline">
+                    <button class="uk-button " type="button">Continuous</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Действие совершалось в точное время в прошлом<br>Как формируется: was/were + Ving</div>
+                </div>
+                <div class="uk-inline">
+                    <button class="uk-button " type="button">Perfect</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Действие совершилось раньше другого действия<br>Как формируется: had + Ved/V3</div>
+                </div>
+                <div class="uk-inline">
+                    <button class="uk-button border" type="button">Perfect Continuous</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Начатое действие продолжалось до момента в прошлом<br>Как формируется: have/has + been + Ved/V3</div>
+                </div>
+                <p class="tenses">Future</p>
+                <div class="uk-inline">
+                    <button class="uk-button " type="button">Simple</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Действие совершится<br>Как формируется: will + V</div>
+                </div>
+                <div class="uk-inline">
+                    <button class="uk-button " type="button">Continuous</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Действие будет совершатся в будущем<br>Как формируется: will + be + Ving</div>
+                </div>
+                <div class="uk-inline">
+                    <button class="uk-button " type="button">Perfect</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Действие совершится раньше другого действия<br>Как формируется: will + have + Ved/V3</div>
+                </div>
+                <div class="uk-inline">
+                    <button class="uk-button border" type="button">Perfect Continuous</button>
+                    <div class="uk-background-secondary uk-light uk-width-large" uk-dropdown="pos: right-center; mode: click">Начатое действие будет продолжаться до момента в будущем<br>Как формируется: will + have + been + Ving</div>
+                </div>
+            </div>
+
+            <div id="cardContainer" uk-grid="masonry: true" class="uk-child-width-1-3">
+                <div>
+                    <div>
+                        <div id="wordCard" class="uk-card uk-card-body">
+                            
+                            <h3 class="uk-card-title">
+                                opportunity
+                            </h3>
+                            <p class="pcard">
+                                A chance for advancement, progress or profit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+    </div>
+    </div> 
+</body>
+<script src="js/uikit.min.js"></script>
+<script src="js/uikit-icons.min.js"></script>
+<script src="js/handlebars-v4.1.2.js"></script>
+<script src="js/script.js"></script>
+<script>
+            
+</script>
+</html>
