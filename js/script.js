@@ -3,7 +3,7 @@
 // создаем объект запроса для получения списка товаров
 let xhrLoad = new XMLHttpRequest();
 // настраиваем на отправку методом GET на url, возвращающий json-массив товаров
-xhrLoad.open('GET', 'https://json.extendsclass.com/bin/c87b626f686e', true);
+xhrLoad.open('GET', 'https://json.extendsclass.com/bin/4e1e1c6a2b24', true);
 xhrLoad.send();
 
 xhrLoad.addEventListener('readystatechange', function () {
