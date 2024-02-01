@@ -48,10 +48,10 @@ a:hover{
 .uk-navbar-center{
     margin-left: 40px;
     font-weight: 700;
-    width: 100%;
 }
 .uk-navbar-container:not(.uk-navbar-transparent){
     background: #0a3a48;
+    width: 100%;
 }
 .uk-width-1-5{
     background: #0a3a48;
