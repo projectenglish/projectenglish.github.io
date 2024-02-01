@@ -48,6 +48,7 @@ a:hover{
 .uk-navbar-center{
     margin-left: 40px;
     font-weight: 700;
+    width: 100%;
 }
 .uk-navbar-container:not(.uk-navbar-transparent){
     background: #0a3a48;
@@ -282,10 +283,10 @@ a:hover{
 }
 @media (max-width:960px) {
     .uk-button{
-        height: 150px;
+        height: 120px;
         font-size: 23px;
     }
     a{
-        font-size: 29px;
+        font-size: 27px;
     }
   }
