@@ -281,20 +281,3 @@ a:hover{
     font-size: 20px;
     margin-top: 10px;
 }
-@media (max-width:960px) {
-    .uk-button{
-        height: 120px;
-        font-size: 23px;
-    }
-    a{
-        font-size: 27px;
-    }
-    .uk-card{
-        background-color: #fbfafa;
-        margin: 13px;
-        max-width: 450px;
-        min-height: 50px;
-        border-radius: 2%;
-        box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.48);
-    }
-  }
