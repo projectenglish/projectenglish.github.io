@@ -3,7 +3,7 @@
 // создаем объект запроса для получения списка товаров
 let xhrLoad = new XMLHttpRequest();
 // настраиваем на отправку методом GET на url, возвращающий json-массив товаров
-xhrLoad.open('GET', 'https://studyprograms.informatics.ru/api/jsonstorage/?id=1e8599be5130c2f5a2f2a2a2c7385a9f', true);
+xhrLoad.open('GET', 'https://studyprograms.informatics.ru/api/jsonstorage/?id=555616f888b1baa122b2a8ff0c8c00e2', true);
 xhrLoad.send();
 
 xhrLoad.addEventListener('readystatechange', function () {
@@ -80,7 +80,7 @@ document.querySelector('#addBtn').addEventListener('click', function () {
         // создаем объект запроса для получения текущего списка товаров
         let xhrLoadProd = new XMLHttpRequest();
         // настраиваем на отправку методом GET на url, возвращающий json-массив товаров
-        xhrLoadProd.open('GET', 'https://studyprograms.informatics.ru/api/jsonstorage/?id=1e8599be5130c2f5a2f2a2a2c7385a9f',
+        xhrLoadProd.open('GET', 'https://studyprograms.informatics.ru/api/jsonstorage/?id=555616f888b1baa122b2a8ff0c8c00e2',
             true);
         xhrLoadProd.send();
 
@@ -111,7 +111,7 @@ document.querySelector('#addBtn').addEventListener('click', function () {
                 // формируем новый запрос. Здесь мы будем обновлять содержимое JSON на сервере
                 let xhrSender = new XMLHttpRequest();
                 // для обновления требуется метод PUT
-                xhrSender.open('PUT', 'https://studyprograms.informatics.ru/api/jsonstorage/?id=1e8599be5130c2f5a2f2a2a2c7385a9f', true);
+                xhrSender.open('PUT', 'https://studyprograms.informatics.ru/api/jsonstorage/?id=555616f888b1baa122b2a8ff0c8c00e2', true);
 
                 // добавляем заголовок к запросу. Данный заголовок обязателен для отправки JSON PUT-запросом
                 xhrSender.setRequestHeader('Content-type', 'application/json; charset=utf-8');
